@@ -11,3 +11,6 @@ param_b = float(right_str[position_x+1:])
 
 result = param_a * param_x + param_b
 print(result)
+
+# решение через split() быстрее
+ 
