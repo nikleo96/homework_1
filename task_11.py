@@ -5,9 +5,10 @@ def timer(func):
         start = time.time()
         func()
         finish = time.time() - start
-        print(f"Время выполнения: {time.time() - start}")
+        print(f"Время выполнения: {finish}")
         return finish
     return wrapper
+
 
 @timer
 def fun():
